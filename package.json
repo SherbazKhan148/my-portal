@@ -1,7 +1,7 @@
 {
-    "name": "social-media-app",
+    "name": "my-portal",
     "version": "1.0.0",
-    "description": "Save Your Memories",
+    "description": "Update and View Your Information",
     "main": "server.js",
     "type": "module",
     "scripts": {
@@ -12,17 +12,17 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/SherbazKhan148/social-media-app.git"
+        "url": "git+https://github.com/SherbazKhan148/my-portal.git"
     },
     "keywords": [
-        "Memories"
+        "Portal"
     ],
     "author": "Sherbaz Khan",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/SherbazKhan148/social-media-app/issues"
+        "url": "https://github.com/SherbazKhan148/my-portal/issues"
     },
-    "homepage": "https://github.com/SherbazKhan148/social-media-app#readme",
+    "homepage": "https://github.com/SherbazKhan148/my-portal#readme",
     "dependencies": {
         "bcryptjs": "^2.4.3",
         "cors": "^2.8.5",
@@ -34,7 +34,8 @@
         "google-auth-library": "^6.1.4",
         "jsonwebtoken": "^8.5.1",
         "mongoose": "^5.11.11",
-        "morgan": "^1.10.0"
+        "morgan": "^1.10.0",
+        "multer": "^1.4.2"
     },
     "devDependencies": {
         "concurrently": "^5.3.0",
